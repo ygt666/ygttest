@@ -286,19 +286,19 @@ https://grafana.com/grafana/dashboards/12377
 
 `登陆http://localhost:9090,即可看到监控的主机`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599205962877.png" alt="1599205962877" style="zoom: 150%;" />
+![](picture/1.jpg)
 
 `访问http://localhost:3000即可登陆Grafana`
 
 `如下图点击Config`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599205973397.png" alt="1599205973397" style="zoom:150%;" />
+![](picture/2.png)
 
 `点击Add data source 选择数据源`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206065832.png" alt="1599206065832" style="zoom:150%;" />
+![](picture/3.png)
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206079233.png" alt="1599206079233" style="zoom:150%;" />
+![](picture/4.png)
 
 ```` 
 
@@ -311,7 +311,7 @@ https://grafana.com/grafana/dashboards/12377
 
 #### 添加模块
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206137657.png" alt="1599206137657" style="zoom:150%;" />
+![](picture/5.png)
 
 ```` 
 点击import后点击Add new panel添加模板
@@ -319,7 +319,7 @@ https://grafana.com/grafana/dashboards/12377
 ## ID号举例 8919 11074 12227 12377 在可以连接互联网才可以
 ````
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206159218.png" alt="1599206159218" style="zoom:150%;" />
+![](picture/6.png)
 
 `选择`
 
@@ -327,9 +327,9 @@ https://grafana.com/grafana/dashboards/12377
 
 `最后点击 Import（导入）`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206171647.png" alt="1599206171647" style="zoom:150%;" />
+![](picture/7.png)
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206195635.png" alt="1599206195635" style="zoom:150%;" />
+![](picture/8.png)
 
 
 
@@ -477,25 +477,25 @@ systemctl restart 容器ID
 
 #### 使用12027模板
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206216687.png" alt="1599206216687" style="zoom:150%;" />
+![](picture/10.png)
 
 #### 手动设置监控
 
 `导入ID为12027的模板默认无法识别节点`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206232417.png" alt="1599206232417" style="zoom:150%;" />
+![](picture/11.png)
 
 `因为我们的job_name为gpu所以要与主机名的语法对应`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206247276.png" alt="1599206247276" style="zoom:150%;" />
+![](picture/12.png)
 
 `点击设置`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206264698.png" alt="1599206264698" style="zoom:150%;" />
+![](picture/13.png)
 
 `点击hostname字段`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206275715.png" alt="1599206275715" style="zoom:150%;" />
+![](picture/14.png)
 
 `因为我们的job_name为gpu所以这里要对应否则无法显示节点`
 
@@ -505,9 +505,9 @@ systemctl restart 容器ID
 
 `比如说为GPU使用率插入值 则点击Edit`
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206294926.png" alt="1599206294926" style="zoom:150%;" />
+![](picture/15.png)
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206301980.png" alt="1599206301980" style="zoom:150%;" />
+![](picture/16.png)
 
 `将内容插入到Metrics这一行`
 
@@ -599,15 +599,19 @@ Alertmanager 主要用于接收 Prometheus 发送的告警信息，它支持丰�
 
 打开钉钉群点击群设置
 
-<img src="C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206372825.png" alt="1599206372825"  />
+![](picture/17.png)
 
 \##然后点击智能群助手
 
-![1599206409173](C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206409173.png)![1599206480935](C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206480935.png)![1599206488422](C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599206488422.png)
+<img src="picture/18.png" style="zoom:50%;" /><img src="picture/19.png" style="zoom:50%;" /><img src="picture/20.png" style="zoom:40%;" />
+
+
 
 \##点击添加机器人,添加自定义机器人
 
-![1599207037225](C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599207037225.png)![1599207044750](C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599207044750.png)
+<img src="picture/21.png" style="zoom:50%;" />
+
+<img src="picture/22.png" style="zoom:50%;" />
 
 \##上面的划线的Webhook 里面有钉钉的token
 
@@ -743,9 +747,10 @@ EOF
 
 \##配置完rules.yaml文件重启prometheus就可以看到告警规则
 
-![1599207099493](C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599207099493.png)![1599207106924](C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599207106924.png)
+<img src="picture/23.png" style="zoom:50%;" /><img src="picture/24.png" style="zoom:50%;" />
 
 \##此时停止node_export或关机就会收到报警
 
-![1599207121446](C:\Users\29684\AppData\Roaming\Typora\typora-user-images\1599207121446.png)
 
+
+![](picture/25.png)
